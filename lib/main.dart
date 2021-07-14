@@ -40,42 +40,69 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 3,
                 ),
               ),
-              Container(
-                color: Colors.blue[900],
-                margin: EdgeInsets.only(left: 20, right: 20),
-                padding: EdgeInsets.only(left: 10),
-                height: 50,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.call,
-                      color: Colors.white,
-                    ),
-                    Text(
-                      '+233240232940',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ],
+              SizedBox(
+                height: 20,
+                width: 150,
+                child: Divider(
+                  color: Colors.white54,
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.blue[900],
-                margin: EdgeInsets.only(left: 20, right: 20, top: 20),
-                padding: EdgeInsets.only(left: 10),
-                height: 50,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.mail,
-                      color: Colors.white,
-                    ),
-                    Text(
-                      'ntumyredeemer@gmail',
-                      style: TextStyle(
+                margin: EdgeInsets.only(
+                  left: 20,
+                  right: 20,
+                  top: 20,
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.call,
                         color: Colors.white,
                       ),
-                    ),
-                  ],
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Text(
+                        '+233 240 232 940',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.blue[900],
+                margin: EdgeInsets.only(
+                  left: 20,
+                  right: 20,
+                  top: 20,
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.mail,
+                        color: Colors.white,
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Text(
+                        'ntumyredeemer@gmail',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               )
             ],
