@@ -41,6 +41,10 @@ flutter:
   uses-material-design: true
   assets:     
     - assets/images/
+  fonts:
+    - family: Archivo
+      fonts:
+        - asset: fonts/Archivo.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -53,11 +57,6 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-  - family: Archivo
-    fonts:
-      - asset:fonts/Archivo-VariableFont_wdth,wght.ttf
-      - asset:fonts/Archivo-Italic-VariableFont_wdth,wght.ttf
-  
+ 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
