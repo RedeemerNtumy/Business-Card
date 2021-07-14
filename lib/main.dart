@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.teal[700],
+          backgroundColor: Colors.blue[900],
           title: Center(child: Text("ABOUT ME")),
         ),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue[800],
         body: SafeArea(
           child: Column(
             children: [
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.white60,
                   fontSize: 20,
                 ),
               ),
